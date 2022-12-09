@@ -3,6 +3,7 @@ channels:
 dependencies:
   - blosc
   - chxtools  # no package on PyPI
+  - csxtools>=0.1.14  # broken sdist on PyPI - no requirements.txt in it
   - fabio
   - gpytorch
   - jupyterhub-singleuser=1.3.0  # match JupyterHub deployment version
@@ -33,7 +34,6 @@ dependencies:
     - bokeh
     - boto3
     - bottleneck
-    - csxtools>=0.1.14
     - dask
     - dask-image
     - dask-jobqueue
